@@ -5,6 +5,7 @@ Install new kernel for SolidRun lx2160
 
 Login as root on SolidRun LX2160 device
 
+```
 cd ~
 apt update
 apt upgrade
@@ -16,3 +17,4 @@ dpkg -i linux-image-5.10.35_5.10.35-1_arm64.deb
 dpkg -i linux-headers-5.10.35_5.10.35-1_arm64.deb
 dpkg -i linux-libc-dev_5.10.35-1_arm64.deb
 reboot
+```
