@@ -18,5 +18,4 @@ dpkg -i linux-headers-5.10.35_5.10.35-1_arm64.deb
 dpkg -i linux-libc-dev_5.10.35-1_arm64.deb
 reboot
 ```
-# WARNING!!!
-No work PWM for FAN CPU!
+
