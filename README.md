@@ -13,9 +13,9 @@ apt install git
 git clone https://github.com/meferspb/linux-headers-5.10.35-nxp.git
 cd linux-headers-5.10.35-nxp
 cp Image /boot/Image
-dpkg -i linux-image-5.10.35_5.10.35-2_arm64.deb
-dpkg -i linux-headers-5.10.35_5.10.35-2_arm64.deb
-dpkg -i linux-libc-dev_5.10.35-2_arm64.deb
+dpkg -i linux-image-5.10.35_5.10.35-4_arm64.deb
+dpkg -i linux-headers-5.10.35_5.10.35-4_arm64.deb
+dpkg -i linux-libc-dev_5.10.35-4_arm64.deb
 reboot
 ```
 
