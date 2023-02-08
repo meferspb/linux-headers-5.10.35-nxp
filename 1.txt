@@ -1,2 +1,0 @@
-cd /lib/modules/5.10.35-00045-g8510b2d4996d  
-ln -s /usr/src/linux-headers-5.10.35 build
