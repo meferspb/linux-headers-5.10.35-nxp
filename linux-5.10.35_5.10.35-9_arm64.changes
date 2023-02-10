@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 10 Feb 2023 14:02:29 +0500
+Source: linux-5.10.35
+Binary: linux-headers-5.10.35 linux-image-5.10.35 linux-image-5.10.35-dbg linux-libc-dev
+Architecture: arm64
+Version: 5.10.35-9
+Distribution: focal
+Urgency: low
+Maintainer: root <root@nxp2>
+Changed-By: root <root@nxp2>
+Description:
+ linux-headers-5.10.35 - Linux kernel headers for 5.10.35 on arm64
+ linux-image-5.10.35 - Linux kernel, version 5.10.35
+ linux-image-5.10.35-dbg - Linux kernel debugging symbols for 5.10.35
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.10.35 (5.10.35-9) focal; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 7ac4bad844c511b765f3832195278fee227ba986 5632 linux-5.10.35_5.10.35-9_arm64.buildinfo
+ 43b16758d7f60dd4172b7c63e80ce2f24dc725ee 7717872 linux-headers-5.10.35_5.10.35-9_arm64.deb
+ aaeb747dc919732dfecc125700146dabfbcdbe53 250788688 linux-image-5.10.35-dbg_5.10.35-9_arm64.deb
+ 21336e10115f46560af485db36883e133d2160a7 24287220 linux-image-5.10.35_5.10.35-9_arm64.deb
+ fc56023d76986ca508065ef68556dbb23afcb41d 1173916 linux-libc-dev_5.10.35-9_arm64.deb
+Checksums-Sha256:
+ d9fa09a6d8ba636aeedf6330e86d3ce86c835ad9b9a7773338e5b1c277f0abaf 5632 linux-5.10.35_5.10.35-9_arm64.buildinfo
+ a77f6daf139bafc58637f46efc899d67f8a69423dbfcb19b40937a15d1eddcd6 7717872 linux-headers-5.10.35_5.10.35-9_arm64.deb
+ 49c9e89cb05d535be388971b0aff2f3f9213cab0ccf2f909a3014ca90ebd815f 250788688 linux-image-5.10.35-dbg_5.10.35-9_arm64.deb
+ 5a82723048fbfaf81ddb4f3f7285c5c99f00073d4828400acb4a5f7f0bf1b185 24287220 linux-image-5.10.35_5.10.35-9_arm64.deb
+ 99a29db8402b49be100b45e0af673fc2fc3b74fab620cbbcdbcf943acb47d639 1173916 linux-libc-dev_5.10.35-9_arm64.deb
+Files:
+ 6534de59a9c8a82d2c6662e1831ebd16 5632 kernel optional linux-5.10.35_5.10.35-9_arm64.buildinfo
+ 290b7e49ce5acb9c686df825df59a49f 7717872 kernel optional linux-headers-5.10.35_5.10.35-9_arm64.deb
+ e9e94a54a2a43bd77fdc61a804248181 250788688 debug optional linux-image-5.10.35-dbg_5.10.35-9_arm64.deb
+ d88cc05560b228cb1ac23e1958300ecc 24287220 kernel optional linux-image-5.10.35_5.10.35-9_arm64.deb
+ d819d60cac10a71ab1c229a0432b6e33 1173916 devel optional linux-libc-dev_5.10.35-9_arm64.deb
